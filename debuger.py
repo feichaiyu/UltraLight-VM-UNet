@@ -51,3 +51,35 @@ print('params: ', params)
 
 
 pass
+
+
+# +----------+------------+
+# | Modules  | Parameters |
+# +----------+------------+
+# | encoder1 |    224     |
+# | encoder2 |    1168    |
+# | encoder3 |    3480    |
+# | encoder4 |    1749    |
+# | encoder5 |    2945    |
+# | encoder6 |    5465    |
+# |   scab   |   16614    |
+# | decoder1 |    6609    |
+# | decoder2 |    3897    |
+# | decoder3 |    2153    |
+# | decoder4 |    3472    |
+# | decoder5 |    1160    |
+# |   ebn1   |     16     |
+# |   ebn2   |     32     |
+# |   ebn3   |     48     |
+# |   ebn4   |     64     |
+# |   ebn5   |     96     |
+# |   dbn1   |     96     |
+# |   dbn2   |     64     |
+# |   dbn3   |     48     |
+# |   dbn4   |     32     |
+# |   dbn5   |     16     |
+# |  final   |     9      |
+# +----------+------------+
+# Total Params:49457
+# flops:  60.240M
+# params:  37.623K
